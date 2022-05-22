@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #79DAE8 ;
+    background-color: #FFE69A;
 
 
 }
@@ -16,33 +16,39 @@ body{
     position: fixed;
     width: 100vw;
     top: 0px;
+    
 }
 .toolbox-priority-cont{
     height: 3rem;
-    background-color: #0AA1DD;
+    background-color: #92B4EC;
     width: 18rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 2px;
+    border-radius: 25px;
+    padding: 10px 20px;
 
     
 
 }
 .action-btn-cont{
-    background-color: #0AA1DD;
+    background-color: #92B4EC;
     height: 3rem;
     width: 10rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 2px
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 .color{
     height: 1.5rem;
     width: 3rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    
 
 }
 .lightpink{
@@ -73,6 +79,8 @@ body{
     height: 50vh;
     width:50vw;
     display: none;
+    padding: 10px 20px;
+    border-radius: 25px;
     
 
 }
@@ -86,6 +94,8 @@ body{
     font-size: 2rem;
     padding: 2rem;
     border-right: 2px solid #F56D91;
+    padding: 10px 20px;
+    border-radius: 25px;
 
 
 }
@@ -96,6 +106,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 25px;
+    
    
 
 
@@ -103,6 +116,8 @@ body{
 .priority-color{
     height: 3rem;
     width: 5rem;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .main-cont{
     margin-top: 7rem;
@@ -111,12 +126,15 @@ body{
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
+    
 
 }
 .ticket-cont{
-    background-color: #DFDFDE;
+    background-color: #F8ECD1;
     height: 10rem;
     width: 16rem;
+    
+   
     
 }
 .ticket-color{
@@ -125,12 +143,15 @@ body{
 }
 .ticket-id{
     height: 1.5rem;
-    background-color: #DFDFDE;
+    background-color: #FF6363;
     font-weight: 600;
-    font-size: .9rem;
-    color: darkgreen;
+    font-size: 0.rem;
+    color: #06113C;
     margin-left: 0.3rem;
+    margin-right: 0.3rem;
     margin-top: 0.3rem;
+    padding: 5px 15px;
+    border-radius: 20px;
 
 
 }
@@ -145,11 +166,12 @@ body{
 
 }
 .active{
-    border: 5px solid #8D8DAA;
+    border: 5px solid #1919b2;
 }
 .lock-unlock{
     font-size: 1.5rem;
     margin-left: 14.5rem;
+    
     
 }
 
